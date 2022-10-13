@@ -13,7 +13,7 @@ export interface TextInputIconProps {
 
 function TextInputRoot(props: TextInputRootProps) {
   return (
-    <div className='flex items-center gap-3 h-12 py-4 px-3 rounded bg-gray-800 focus-within: ring-2 ring-cyan-300'>
+    <div className='flex items-center gap-3 h-12 py-4 px-3 rounded bg-gray-800 focus-within:ring-2 ring-cyan-300'>
       {props.children}
     </div>
   )
@@ -30,7 +30,7 @@ function TextInputIcon(props: TextInputIconProps) {
 function TextInputInput(props: TextInputProps) {
 
   return (
-    <input className={'bg-transparent flex-1 text-gray-100 text-xs placeholder: text-gray-400 outline-none'}
+    <input className={'bg-transparent flex-1 text-gray-100 text-xs placeholder:text-gray-400 outline-none'}
       {...props}
     />
   )
