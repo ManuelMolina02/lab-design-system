@@ -26,4 +26,4 @@ dist-ssr
 
 #Storybook
 
-/storybook-static
+storybook-static
