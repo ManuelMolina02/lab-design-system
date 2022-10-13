@@ -22,7 +22,7 @@ function App() {
         </Text>
       </header>
 
-      <form className='flex flex-col gap-4 items-stretch max-w-[600px] mt-16'>
+      <form className='w-[380px] flex flex-col gap-4 items-stretch mt-12'>
         <label htmlFor="email" className='flex flex-col gap-3'>
           <Text className='font-semibold'>
             Endereço de e-mail:
